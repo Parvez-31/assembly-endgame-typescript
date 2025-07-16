@@ -1,10 +1,6 @@
 import Confetti from "react-confetti";
 import type { JSX } from "react";
 
-/*
-CHALLENGE: Explictly type the ConfettiContainer component's return value
-*/
-
 export default function ConfettiContainer({
   isGameWon,
 }: {

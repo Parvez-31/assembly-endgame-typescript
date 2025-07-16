@@ -8,12 +8,6 @@ type LanguageChips = {
   wrongGuessCount: number;
 };
 
-/*
-    CHALLENGE 1: Type lang and index, the parameters of the callback function
-    CHALLENGE 2: Type the return value of the callback function
-    CHALLENGE 3: Type languageElements
-    */
-
 export default function LanguageChips({
   languages,
   wrongGuessCount,

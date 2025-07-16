@@ -18,9 +18,6 @@ export default function GameStatus({
   isLastGuessIncorrect,
   wrongGuessCount,
 }: GameStatusProps): JSX.Element {
-  /*
-        CHALLENGE: Type the gameStatusClass variable
-        */
   const gameStatusClass: string = clsx("game-status", {
     won: isGameWon,
     lost: isGameLost,
